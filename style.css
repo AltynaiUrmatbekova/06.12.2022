@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+.container {
+    max-width: 987px;
+    margin: 0 auto;
+}
+.row { /* строка */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  [class^="col"] {
+    padding: 0 10px;
+  }
+  .col-1 {
+    flex: 8.3% 0 0;
+  }
+  .col-2 {
+    flex: 16.6% 0 0;
+  }
+  .col-3 {
+    flex: 25% 0 0;
+  }
+  .col-4 {
+    flex: 33.3% 0 0;
+  }
+  .col-5 {
+    flex: 41.6% 0 0;
+  }
+  .col-6 {
+    flex: 50% 0 0;
+  }
+  .col-7 {
+    flex: 58.3% 0 0;
+  }
+  .col-8 {
+    flex: 66.6% 0 0;
+  }
+  .col-9 {
+    flex: 75% 0 0;
+  }
+  .col-10 {
+    flex: 83% 0 0;
+  }
+  .col-11 {
+    flex: 91.6% 0 0;
+  }
+  .col-12 {
+    flex: 100% 0 0;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 5px 5px 10px 0 black;
+    transition: all 100ms ease-in;
+  
+    margin-bottom: 15px;
+  }
+  .card .card-image {
+    width: 100%;
+  }
+  .card .card-content {
+    padding: 10px 15px;
+  }
+  .card.card-horizonal {
+    display: flex;
+  }
+  .card.card-horizonal .card-image {
+    width: 30%;
+  }
+  .topbar {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.777);
+    display: flex;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  .nav .nav-item .nav-link {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  .nav .nav-item .nav-link:hover {
+    color: black;
+  }
+  .nav .nav-item.active .nav-link {
+    background-color: blue;
+    color: white;
+  }
+  .topbar.topbar-dark {
+    background-color: black;
+    color: white;
+  }
+  .nav.nav-dark .nav-item .nav-link {
+    color: white;
+  }
+  .nav.nav-dark .nav-item .nav-link:hover {
+    color:  gainsboro;
+  }
+  .nav.nav-dark .nav-item.active .nav-link {
+    background-color: white;
+    color: black;
+  }
+  .topbar.topbar-yellow {
+    background-color: yellow;
+  }
+  .nav.nav-yellow .nav-item.active .nav-link {
+    background-color: black;
+    color: yellow;
+  }
+  .nav.nav-yellow .nav-item .nav-link {
+    color: black;
+  }
+  .nav.nav-yellow .nav-item .nav-link:hover {
+    background-color: black;
+    color: yellow;
+  }
+  .topbar.topbar-mega {
+    background-color: green;
+    color: white;
+  }
+  .nav.nav-mega .nav-item.active .nav-link {
+    background-color: white;
+    color: green;
+  }
+  nav.nav-mega .nav-item .nav-link {
+    color: green;
+    text-transform: uppercase;
+  }
+  .nav.nav-mega .nav-item .nav-link:hover {
+    color: green;
+    background-color: white;
+  }
+  .topbar.topbar-o {
+    background-color: pink;
+    color: white;
+  }
+  .nav.nav-o .nav-item.active .nav-link {
+    background-color: white;
+    color: pink;
+  }
+  .nav.nav-o .nav-item .nav-link {
+    color: white;
+  }
+  .nav.nav-o .nav-item .nav-link:hover {
+    color: pink;
+    background-color: white;
+  }
